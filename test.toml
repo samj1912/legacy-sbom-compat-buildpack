@@ -1,0 +1,4 @@
+[[bom]]
+name = "ruby"
+[bom.metadata]
+version = "$ruby_version"
