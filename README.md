@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/dynamic/json?url=https://cnb-registry-api.herokuapp.com/api/v1/buildpacks/sam/legacy-sbom-compat-buildpack&label=Version&query=$.latest.version)
 
-This is a [Cloud Native Buildpack](https://buildpacks.io) that configures image labels using a [project descriptor](https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#project-descriptor) file - `project.toml`
+This is a [Cloud Native Buildpack](https://buildpacks.io) that is a poc of providing a compat layer for newer buildpack api versions to allow them to output standard sbom formats while delegating to this buildpack for the legacy format. 
 
 
 ## Usage
